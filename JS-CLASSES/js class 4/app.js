@@ -32,7 +32,7 @@
 var x =10;
 
 if(x === '10'
-    document.write('yes')
+     document.write('yes')
 )
 // if(x === '10')  
 
