@@ -1,0 +1,59 @@
+/* Basic styling for the Todo app */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Main Todo button */
+#todo-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Delete buttons */
+.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Edit buttons */
+.edit-btn {
+    background-color: #2196F3; /* Blue */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
